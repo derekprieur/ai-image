@@ -20,7 +20,7 @@ const Home = () => {
         const fetchPosts = async () => {
             setLoading(true)
             try {
-                const response = await fetch('https://pix-l7lf.onrender.com/api/v1/dalle', {
+                const response = await fetch('https://pix-l7lf.onrender.com/api/v1/post', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
